@@ -10,8 +10,8 @@ class AccountPage extends StatefulWidget {
 class _AccountPageState extends State<AccountPage> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(child: Text('Account'),),
+    return const SizedBox(
+      child: Center(child: Text('Shop'),),
     );
   }
 }

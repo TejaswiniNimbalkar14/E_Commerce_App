@@ -1,20 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:suture_house_demo/dashboard.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Dashboard(
-        // text: 'Hello',
-        // hintText: 'Search Products..',
-        // onChanged: (String value){ },
-      ),
+      home: Dashboard(),
     );
   }
 }

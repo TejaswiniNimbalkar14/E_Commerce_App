@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:suture_house_demo/Pages/register_page.dart';
 
 class HomePage extends StatefulWidget {
   final String text;
@@ -145,7 +146,12 @@ class _HomePageState extends State<HomePage> {
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all(Colors.white),
                         ),
-                        onPressed: null,
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => const RegisterPage())
+                          );
+                        },
                         child: const Text('Shop Now', style: TextStyle(color: Colors.black, fontSize: 15),),
                       ),
                     )

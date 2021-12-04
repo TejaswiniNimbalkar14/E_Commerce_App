@@ -10,7 +10,7 @@ class WishlistPage_State extends State<WishlistPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Center(child: Text('Wishlist'),),
+      child: const Center(child: Text('Wishlist'),),
     );
   }
 }
