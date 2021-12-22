@@ -147,10 +147,10 @@ class _HomePageState extends State<HomePage> {
                           backgroundColor: MaterialStateProperty.all(Colors.white),
                         ),
                         onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => const RegisterPage())
-                          );
+                          // Navigator.push(
+                          //   context,
+                          //   MaterialPageRoute(builder: (context) => const RegisterPage())
+                          // );
                         },
                         child: const Text('Shop Now', style: TextStyle(color: Colors.black, fontSize: 15),),
                       ),
